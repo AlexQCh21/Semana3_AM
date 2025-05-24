@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="30dp"
+        android:text="Método Burbuja"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/etValor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor A"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etValor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor B"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etValor3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor C"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etValor4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor D"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etValor5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor F"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ordenar"
+        android:paddingVertical="12dp"
+        android:textSize="21sp"
+        />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Ordenamiento:"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>
